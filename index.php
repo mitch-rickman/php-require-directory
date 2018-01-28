@@ -1,6 +1,6 @@
 <?php
 
-namespace IncludeDirectory;
+namespace RequireDirectory;
 
 class Autoload {
     public function __construct( $path ) {
