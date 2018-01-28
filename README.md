@@ -16,4 +16,4 @@ Include in your composer.json file
 }
 ```
 
-Be sure to include the composer autoload file: `require(\_\_DIR\_\_ . '/vendor/autoload.php');`
+Be sure to include the composer autoload file: `require(__DIR__ . '/vendor/autoload.php');`
