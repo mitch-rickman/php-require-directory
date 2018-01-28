@@ -1,0 +1,19 @@
+{
+    "name": "mitch-rickman/requiredir",
+    "description": "Require a directory non - recursively",
+    "authors": [
+        {
+            "name": "Mitch Rickman",
+            "email": "mitchrickman@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "index.php"
+        ],
+        "psr-4": {
+            "IncludeDirectory\\": "./"
+        }
+    }
+}
