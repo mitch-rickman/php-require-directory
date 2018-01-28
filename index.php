@@ -3,8 +3,9 @@
 namespace RequireDirectory;
 
 function Autoload ( $path ) {
-    if ( file_exists($path) ) {
-        foreach ( glob( $path . '*.php' ) as $filename ) {
+    $slash_path = rtrim($path, '/') . '/';
+    if ( file_exists($slash_path) ) {
+        foreach ( glob( $slash_path . '*.php' ) as $filename ) {
             require_once( $filename );
         }
     }
